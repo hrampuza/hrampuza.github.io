@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #bd9e2d;
+
+	margin: 2%;
+	background-image: url("bigpuzo.png");
+	background-size: 100%; 
+	background-attachment: fixed;
+}
+
+h1 {
+	font-size: 500%;
+}
+
+.information {
+	width: 50%;
+	background-color: #a35c0af0;
+	margin-top: 2%;
+}
+
+.left {
+	margin-left: -50%;
+}
+
+.right {
+	margin-right: -50%;
+}
