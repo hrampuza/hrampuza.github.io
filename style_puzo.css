@@ -13,8 +13,9 @@ body {
 
 	margin: 2%;
 	background-image: url("bigpuzo.png");
-	background-size: 100%; 
+	 background-size: cover;
 	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 h1 {
