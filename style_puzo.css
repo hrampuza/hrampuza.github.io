@@ -11,7 +11,7 @@ body {
 	align-items: center;
 	background-color: #bd9e2d;
 
-	margin: 2%;
+	padding: 2%;
 	background-image: url("bigpuzo.png");
 	 background-size: cover;
 	     -webkit-background-size: cover;
