@@ -4,14 +4,15 @@
 	z-index: 1;
 }
 
-html {
-	background: url("bigpuzo.png") center bottom;
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: repeat-y;
+.background {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
 }
 
-body {
+.content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
