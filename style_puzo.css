@@ -4,21 +4,20 @@
 	z-index: 1;
 }
 
+html {
+	background-image: url("bigpuzo.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #bd9e2d;
 
 	padding: 2%;
-	background-image: url("bigpuzo.png");
-	 background-size: cover;
-	     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 }
 
 h1 {
