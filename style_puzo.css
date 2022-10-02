@@ -8,7 +8,7 @@ html {
 	background: url("bigpuzo.png") center center;
 	background-size: cover;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 }
 
 body {
