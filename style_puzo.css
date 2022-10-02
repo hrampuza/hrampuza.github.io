@@ -5,7 +5,7 @@
 }
 
 html {
-	background: url("bigpuzo.png") center center;
+	background: url("bigpuzo.png") center bottom;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: repeat-y;
