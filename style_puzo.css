@@ -1,7 +1,3 @@
-:root {
-	--puzoColor: #a35c0af0;
-}
-
 * {
 	padding: 0;
 	margin: 0;
@@ -35,7 +31,7 @@ h1 {
 
 .information {
 	width: 50%;
-	background-color: var(--puzoColor);
+	background-color: #a35c0af0;
 	margin-top: 2%;
 	padding: 1%;
 }
