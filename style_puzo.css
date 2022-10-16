@@ -54,19 +54,19 @@ h1 {
 }
 
 .button{
-  border: 1px solid black;
+  border: 0.1rem solid black;
   outline: 0;
   color: #fff;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.01rem;
   display: inline-block;
   text-decoration: none;
   font-family: 'Open Sans';
   color: black;
-  height: 3vh;
+  height: 1rem;
   width: 70vw;
-  padding: 0.5%;
-  margin-top: 0.5%;
+  padding: 0.6em;
+  margin-top: 0.5rem;
 }
 
 .button:hover{
@@ -87,9 +87,9 @@ h1 {
 	overflow: none;
 	width: 100%;
 	text-align: center;
-	padding: 0.5%;
-	top: -1vh;
-	height: 20px;
-	padding-top: 5px;
+	padding: 0.5rem;
+	top: -0.6rem;
+	height: 1rem;
+	padding-top: 0.1rem;
 	z-index: 10;
 }
