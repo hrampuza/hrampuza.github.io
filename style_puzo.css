@@ -35,7 +35,7 @@ h1 {
 }
 
 .information {
-	width: 70%;
+	width: 80%;
 	background-color: var(--puzoColor);
 	margin-top: 2%;
 	padding: 1%;
@@ -46,16 +46,17 @@ h1 {
 }
 
 .left {
-	margin-left: -30%;
+	margin-left: -20%;
 }
 
 .right {
-	margin-right: -30%;
+	margin-right: -20%;
 }
 
 .at {
 	color: red;
 	background-color: black;
+	text-align: center;
 }
 
 .button{
