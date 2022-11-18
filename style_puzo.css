@@ -106,3 +106,7 @@ h1 {
 .tomain > * {
   margin-top: 0;
 }
+
+.ckruglenie {
+	border-radius: 0.8rem;
+}
