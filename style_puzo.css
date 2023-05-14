@@ -74,6 +74,10 @@ h1 {
   margin-top: 0.5rem;
 }
 
+.menu {
+	font-size: 130%;
+}
+
 .button > * {
   margin-top: -0.2rem;
 }
