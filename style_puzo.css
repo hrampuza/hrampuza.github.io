@@ -33,6 +33,12 @@ SOFTWARE.
 	z-index: 1;
 }
 
+@media (min-width: 720px) {
+    * {
+        font-size: 128%;
+    }
+}
+
 h1 {
 	color: black;
 }
@@ -125,10 +131,10 @@ h1 {
 	overflow: none;
 	width: 100%;
 	text-align: center;
-	padding: 0.5rem;
-	top: -0.6rem;
-	height: 1rem;
-	padding-top: 0.1rem;
+	padding: 0.5em;
+	top: -0.6em;
+	height: 1.1em;
+	padding-top: 0.1em;
 	z-index: 10;
 }
 
