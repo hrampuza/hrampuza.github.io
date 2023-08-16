@@ -51,7 +51,6 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 	padding: 2%;
 }
 
@@ -65,9 +64,6 @@ h1 {
 	background-color: var(--puzoColor);
 	margin-top: 2%;
 	padding: 1%;
-}
-
-.inf {
 	font-size: 1.35rem;
 }
 
@@ -77,6 +73,41 @@ h1 {
 
 .right {
 	margin-right: -20%;
+}
+
+.center {
+	position: absolute;
+	width: 60vw;
+	height: 50vh;
+	left: calc(100vw/2-(50vw/2));
+	top: 30vh;
+}
+
+.passwordInputForm {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-flow: column;
+}
+
+.passwordInputForm > * {
+	margin-bottom: 3em;
+	padding: 0.3em;
+	text-align: center;
+}
+
+.passwordInputForm > input {
+	width: 70%;
+	height: 10%;
+	font-size: large;
+}
+
+.passwordInputForm > button {
+	width: 70%;
+	height: 16%;
+	font-size: large;
 }
 
 .at {
@@ -127,8 +158,8 @@ h1 {
 	width: 100%;
 	text-align: center;
 	padding: 0.5em;
-	top: -0.6em;
-	height: 0.5em;
+	top: -0.9em;
+	height: 0.4em;
 	z-index: 10;
 }
 
