@@ -24,13 +24,27 @@ SOFTWARE.
 */
 
 :root {
-	--puzoColor: #a35c0af0;
-}  
+	--puzoColor: rgb(224, 166, 79);
+}
+
+@font-face {
+    font-family: Balkara; /* Гарнитура шрифта */
+    src: url(font/BalkaraFreeCondensed.ttf); /* Путь к файлу со шрифтом */
+}
 
 * {
 	padding: 0;
 	margin: 0;
 	z-index: 1;
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	   -moz-user-select: none; /* Old versions of Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+			user-select: none; 
 }
 
 h1 {
@@ -44,6 +58,12 @@ h1 {
 	top: 0;
 	width: 100vw;
 	height: 100vh;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	   -moz-user-select: none; /* Old versions of Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+			user-select: none; 
 }
 
 .content {
@@ -57,6 +77,7 @@ h1 {
 h1 {
 	margin-top: 0.3em;
 	font-size: 350%;
+	font-family: Balkara;
 }
 
 .information {
@@ -65,6 +86,7 @@ h1 {
 	margin-top: 2%;
 	padding: 1%;
 	font-size: 1.35rem;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .left {
@@ -92,6 +114,8 @@ h1 {
 	max-width: 20em;
 	max-height: 15em;
 	border: 0.01em solid black;
+	font-family: Balkara;
+	
 }
 
 .passwordInputForm > * {
@@ -102,12 +126,34 @@ h1 {
 
 .passwordInputForm > h2 {
 	font-size: 140%;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	   -moz-user-select: none; /* Old versions of Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+			user-select: none; 
 }
 
 .passwordInputForm > input {
 	width: 70%;
 	height: 10%;
 	font-size: large;
+	border-radius: 10%;
+	outline: 0;
+	text-align: left;
+}
+.passwordInputForm > input {
+	width: 18.75em; /* convert 300px to em */
+  font-size: 0.8125em; /* convert 13px to em */
+  padding: 0.375em 0 0.25em 0.625em; /* convert 6px 0 4px 10px to em */
+  border: 1px solid #cecece;
+  background: #F6F6f6;
+  border-radius: 0.5em; /* convert 8px to em */
+}
+
+.passwordInputForm > input:focus {
+  outline: none;
+  border-color: #2196F3;
 }
 
 .passwordInputForm > button {
@@ -117,9 +163,11 @@ h1 {
 }
 
 .at {
-	color: red;
-	background-color: black;
+	background-color: rgb(255, 214, 214);
 	text-align: center;
+	font-family: Balkara;
+	border: 0.1em black solid;
+	font-size: 110%;
 }
 
 .button{
@@ -135,6 +183,13 @@ h1 {
   width: 70vw;
   padding: 0.6em;
   margin-top: 0.5rem;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+	 -moz-user-select: none; /* Old versions of Firefox */
+	  -ms-user-select: none; /* Internet Explorer/Edge */
+		  user-select: none; 
+  font-family: Balkara;
 }
 
 .menu {
