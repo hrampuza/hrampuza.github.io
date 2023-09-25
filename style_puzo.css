@@ -135,7 +135,7 @@ h1 {
 }
 
 .passwordInputForm > input {
-	width: 70%;
+	width: 90%;
 	height: 10%;
 	font-size: large;
 	border-radius: 10%;
@@ -143,7 +143,6 @@ h1 {
 	text-align: left;
 }
 .passwordInputForm > input {
-	width: 18.75em; /* convert 300px to em */
   font-size: 0.8125em; /* convert 13px to em */
   padding: 0.375em 0 0.25em 0.625em; /* convert 6px 0 4px 10px to em */
   border: 1px solid #cecece;
