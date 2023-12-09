@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+}
+
+img {
+    user-select: none;
+}
+
+.lowSpeedPuzo {
+    
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    from {
+      transform: scale(.85);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.85);
+    }
+  }
+
+.highSpeedPuzo {
+    animation: pulse2 0.3s ease-in-out infinite;
+    z-index: 100;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+}
+
+@keyframes pulse2 {
+    from {
+      transform: scale(.85);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.85);
+    }
+  }
+
+.badBoy {
+    width: 70vw;
+    height: 15vh;
+    animation: pulse2 10.3s ease-in-out infinite;
+}

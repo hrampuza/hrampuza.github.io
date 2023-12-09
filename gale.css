@@ -1,0 +1,32 @@
+.puzoImage {
+    width: 34em;
+    user-select: none;
+}
+
+@media screen and (max-width: 792px) {
+    .puzoImage {
+        width: 15em;
+    }
+  }
+
+  @media screen and (max-width: 792px) {
+    .puzoImage {
+        width: 15em;
+    }
+  }
+
+* {
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-top: 0.6em;
+}
+
+.tomain {
+    overflow-y: hidden;
+}
+
+.header {
+    width: 97vw;
+}
