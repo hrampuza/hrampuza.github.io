@@ -1,27 +1,3 @@
-<!--
-MIT License
-
-Copyright (c) 2023 Vladimir Donskoj
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
--->
 <!DOCTYPE html>
 <html>
 
@@ -31,11 +7,28 @@ SOFTWARE.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Виртуальный храм пуза - Доп. Информация</title>
+  <title>Виртуальный храм пуза - Подробнее</title>
 
 </head>
 
 <body>
+  <style>
+    #content > * {
+      margin: 0.5em;
+    }
+    #content > h1 {
+      font-size: unset;
+    }
+    #content > p {
+      padding: 0.1em;
+    }
+    hr {
+      color: black;
+      background-color: black;
+      border: black 0.001em solid;
+      margin: 1.1em;
+    }
+  </style>
   <script type="text/javascript" src="./gibberish-aes-1.0.0.min.js"></script>
 
   <img src="bigpuzo.png" class="background">
@@ -44,19 +37,19 @@ SOFTWARE.
       <p>Вернуться на главную</p>
     </a>
     <h1>ХРАМ ПУЗА</h1>
-    <h3 class="header ckruglenie">Архив</h1>
+    <h3 class="header ckruglenie">Подробнее</h1>
 
 
       <div id="passwordInputForm" class="information center ckruglenie passwordInputForm">
         <h2>Для получения доступа введите пароль</h2>
         <input id="passwordInput" placeholder="Пароль" />
-        <button class="button" id="decryptButton">Получить доступ</button>
+        <button class="button" style="min-height: max-content;" id="decryptButton">Получить доступ</button>
       </div>
 
       <div id="content"></div>
 
       <script type="text/javascript">
-        let crypted = "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\ni/W/pZEnI/9T8DsBw/Giyw==";
+        let crypted = "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";
 
         let content = document.getElementById("content");
         let button = document.getElementById("decryptButton");
@@ -77,5 +70,7 @@ SOFTWARE.
 
   </div>
 </body>
-
+  <!-- ПУЗО РАСТЕТ -->
+    <!-- 54.98655152570331, 61.3439122926337-->
+    <!-- 01.06.2027 -->
 </html>
